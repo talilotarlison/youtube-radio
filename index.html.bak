@@ -1,0 +1,217 @@
+  
+<!DOCTYPE html>
+<html lang=pt-br>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    concert=width=devace-width initial-scale=1.0>
+    <link rel="stylesheet" type="image/x-icon" href="./assets/img/ico.png">
+	<link rel="shortcut icon" href="./assets/img/ico.png" type="image/x-icon" />
+    <title>YT Music Radio - Inicio</title> <!--titulo da pagina -->
+	<link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href"https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+    <nav> 
+        <div class="logo__ytmusic">
+            <a href="https://music.youtube.com/"  target="_blank"><img src="https://music.youtube.com/img/on_platform_logo_dark.svg" alt="YT Music"width="100px"></a>
+        </div>
+        <div class="menu__navegacao "> 
+           <li> <a href="https://music.youtube.com/" > Inicio</a>  
+            <li> <a href="#explorar"> Explorar</a>
+             <li> <a href="https://music.youtube.com"> Biblioteca</a>
+              <li> <a href="https://music.youtube.com/music_premium" title="Player de Video do YT Music externo"> Player</a>   
+        </div>
+        <div class="home">
+             <a href="https://www.youtube.com.br" target="_blank"><img  src="./assets/img/home.png" alt="Inicio" width="30px"></a>
+        </div>
+    </nav>
+    </header>
+	<main>
+		<div class="banner__prinicpal">
+			<div class="banner">
+				<img src="./assets/img/banner.png">
+			</div>
+			<div class="banner__texto">
+				<h4>De quais artistas você gosta?</h4>
+				<p>Criaremos uma experiência personalizada para você.</p>
+				<a href="#vamos_la"> Vamos lá</a>  
+			</div>
+		</div>	
+		<div class="categorias">
+			<h2>Minhas Radios  </h2>
+			<a href="https://music.youtube.com/">Mais</a>
+		</div>
+	<div class="canais__radio">	
+		<div class="canal">
+           <img src="./assets/img/radio/eletronica.jpg"><!-- width="200px" height="200px"-->
+			<h4>Eletronica</h4>
+			<p>O melhor do Eletronico</p>
+		</div>
+		<div class="canal">
+           <img src="https://www.vagalume.com.br/1470161190169185/default" <!-- width="200px" height="200px"-->
+			<h4>Dance Music</h4>
+			<p>O melhor do Dance</p>
+		</div>
+		<div class="canal">
+           <img src="https://www.vagalume.com.br/1470169276225492/default" <!-- width="200px" height="200px"-->
+			<h4>Pop Nacional</h4>
+			<p>O melhor do pop</p>
+		</div>
+		<div class="canal">
+           <img src="https://www.vagalume.com.br/1464201608479108132/default"<!-- width="200px" height="200px"-->
+			<h4>Radio Rock</h4>
+			<p>O melhor do rock</p>
+		</div>
+		<div class="canal">
+           <img src="https://www.vagalume.com.br/147015501223418/default"<!-- width="200px" height="200px"-->
+			<h4>Forro</h4>
+			<p>O melhor do forro</p>
+		</div>
+		<div class="canal">
+           <img src="https://www.vagalume.com.br/1479752883943544/default"<!-- width="200px" height="200px"-->
+			<h4>Metal</h4>
+			<p>O melhor do metal</p>
+		</div>
+		</div>
+		
+		<div class="categorias">
+			<h2>Artistas  Local</h2>
+			<a href="https://music.youtube.com/">Mais</a>
+		</div>
+		<div class="canais__radio">
+		<div class="canal  artista">
+           <a href="https://music.youtube.com/"><img src="https://images.suamusica.com.br/DlD5dLNytqMW_Q8ZU6_T8ZtiLCc=/500x500/43162534/3257538/cd_cover.png"></a>
+			<h4>João Gomes</h4>
+			<p>O melhor do forro!</p>
+		</div>
+		<div class="canal  artista">
+		<a href="https://music.youtube.com/"><img src="https://www.vagalume.com.br/ze-felipe/images/ze-felipe.jpg"></a>
+			<h4>Ze Felipe</h4>
+			<p>O melhor do Brasil</p>
+		</div>
+		<div class="canal  artista">
+		<a href="https://music.youtube.com/"><img src="https://www.vagalume.com.br/nattan/images/nattan.jpg"></a>
+			<h4>NATTAN</h4>
+			<p>O melhor do Forro</p>
+		</div>
+	</div>
+		<div class="categorias" id="vamos_la">
+			<h2>Radios Mais Tocadas   </h2>
+			<a href="https://music.youtube.com/">Mais</a>
+		</div>
+	<div class="canais__radio">		
+		<div class="canal">
+           <img src="https://www.vagalume.com.br/1506975770142563/default" <!-- width="200px" height="200px"-->
+			<h4>Pop Rock</h4>
+			<p>O melhor do pop rock</p>
+		</div>
+		<div class="canal">
+           <img src="https://www.vagalume.com.br/1529095568377255/default"<!-- width="200px" height="200px"-->
+			<h4>Sertanejo</h4>
+			<p>O melhor do sertanejo</p>
+		</div>
+		<div class="canal">
+           <img src="https://www.vagalume.com.br/14647977281792658143/default"<!-- width="200px" height="200px"-->
+			<h4>Rock Classico</h4>
+			<p>O melhor do rock</p>
+		</div>
+		<div class="canal">
+           <img src="https://www.vagalume.com.br/1498151997992567/default" <!-- width="200px" height="200px"-->
+			<h4>Nirvana</h4>
+			<p>O melhor do rock</p>
+		</div>
+		<div class="canal">
+           <img src="https://www.vagalume.com.br/1497301149923842/default" <!-- width="200px" height="200px"-->
+			<h4>The Beatles</h4>
+			<p>O melhor do rock</p>
+		</div>
+		<div class="canal">
+           <img src="https://www.vagalume.com.br/1495571049862105/default" <!-- width="200px" height="200px"-->
+			<h4>Legião Urbana</h4>
+			<p>O melhor do rock</p>
+		</div>
+	</div>
+		<div class="categorias">
+			<h2>Artistas Internacionais </h2>
+			<a href="https://music.youtube.com/">Mais</a>
+		</div>
+	<div class="canais__radio">
+		<div class="canal  artista">
+		<a href="https://music.youtube.com/"><img src="https://static1.purepeople.com.br/articles/9/39/80/9/@/492649-justin-bieber-se-arrepende-de-624x600-2.jpg"></a>
+			<h4>Justin Bieber</h4>
+			<p>O melhor do pop!</p>
+		</div>
+		<div class="canal  artista">
+		<a href="https://music.youtube.com/"><img src="https://www.vagalume.com.br/muse/images/muse.jpg"></a>
+			<h4>MUSE</h4>
+			<p>O melhor do rock</p>
+		</div>
+		<div class="canal  artista">
+			<a href="https://music.youtube.com/"> <img src="https://www.vagalume.com.br/nirvana/images/nirvana.jpg"></a>
+			<h4>Nirvana</h4>
+			<p>O melhor do grunge</p>
+		</div>
+	</div>	
+	
+ 
+	<div class="categorias">
+			<h2>Generos Musicais  </h2>
+			<a href="https://music.youtube.com/">Mais</a>
+		</div>
+	<div class="banner__prinicpal" id="explorar">
+			<div class="banner">
+				<img src="./assets/img/banner-explorar.png">
+			</div>
+			<div class="banner__texto">
+				<h4>De quais musicas você gosta?</h4>
+				<p>Criaremos uma experiência personalizada para você.</p>
+				<a href="https://music.youtube.com/explore"> Explorar</a>  
+			</div>
+		</div>	
+		<div class="ver__mais_youtube">
+			 <a href="https://music.youtube.com/"> YouTube</a>  
+		</div>
+		
+	<div class="generos">
+		<div class="estilo">
+			 <a href="https://music.youtube.com/"> Rock</a> 
+		</div>
+		<div class="estilo  estilo_dois">
+			<a href="https://music.youtube.com/"> Forro</a> 
+		</div>
+		<div class="estilo  estilo_tres">
+			<a href="https://music.youtube.com/">Gospel</a>
+		</div>	
+		<div class="estilo  estilo_quatro">
+			<a href="https://music.youtube.com/"> Pop</a> 
+		</div>
+		<div class="estilo  estilo_tres">
+			<a href="https://music.youtube.com/">Fuck</a>
+		</div>
+		<div class="estilo">
+			<a href="https://music.youtube.com/">Anos 2000</a>  
+		</div>
+		<div class="estilo  estilo_quatro">
+			<a href="https://music.youtube.com/"> Metal</a> 
+		</div>
+		<div class="estilo  estilo_dois">
+			<a href="https://music.youtube.com/">Sertanejo</a>
+		</div>
+		<div class="estilo">
+			<a href="https://music.youtube.com/">Hip-Hop</a>  
+		</div>
+	</div>
+	</main>
+	 <footer>	
+		<p>Todos direitos reservado a <a href="https://music.youtube.com/">YouTube Music</a>.</p>
+    </footer>
+    
+</body>
+</html>
+   
+         

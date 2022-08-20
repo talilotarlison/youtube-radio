@@ -1,0 +1,246 @@
+html, body {
+	min-height: 100%;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	max-height: 100vw;
+
+}
+body {
+    padding: 0;
+    margin: 0 auto;
+	width:100vw;
+}
+header {
+	position:fixed;
+background-color:  black;
+ width:100%;
+ max-width:100%;
+
+}
+
+nav{display:  flex;
+       align-items: center;
+  justify-content: space-between;
+}
+
+.menu__navegacao{
+  display: flex;  
+  align-items: center;
+  justify-content: space-between;
+  margin:  0px 0px;
+ 
+}
+.menu__navegacao > li > a {text-decoration:  none;
+color:  gray;
+}
+.menu__navegacao > li > a:hover {color: #fff;
+
+}
+.menu__navegacao > li{
+      margin: 10px;     
+
+}
+
+.logo__ytmusic{display:flex;
+    margin: 10px;
+      
+}
+.home{display:flex;
+    margin: 15px;
+       
+}
+
+.banner__prinicpal{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	
+}
+.banner > img {
+ max-width:100%;
+height:auto;
+	
+}
+.banner__texto{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+}
+.banner__texto > a{
+	text-transform:uppercase;	
+	border: 20px 20px;
+	background-color: white;
+	color: black;
+	padding: 10px 20px;
+	font-weight: bold;
+	border-radius: 05px;
+	text-align:center;
+	display:block;
+	width:150px;
+}
+.banner__texto > a:hover{
+	opacity: 0.4;
+}
+
+.banner__texto > h4{
+	font-weight: bold;
+	color: white;
+	margin: 0 ;
+	text-align:center;
+} 
+.banner__texto > p{
+	color: gray;
+	margin: 20px 0px;
+	font-weight: lighter;
+	text-align:center;
+	
+	
+} 
+
+main{
+	padding-top: 60px;
+}
+.categorias{
+	display:flex;
+	align-items: center;
+	 justify-content:space-between;
+}
+.categorias > a:hover{
+	opacity: 0.4;
+}
+.categorias > a {
+	display:block;
+	text-transform:uppercase;
+	background-color: #191919;
+	color: white;
+	padding: 10px 20px;
+	font-weight: normal;
+	border-radius: 5px;
+	margin:0 10px;
+}
+	
+.categorias > h2 {
+	margin: 20px 20px; 
+	color: white;
+	font-weight: bold;
+}
+.canais__radio{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+
+}
+.canal > img{
+	border-radius:25px;
+	width: 300px;
+	height:300px;
+	padding: 5px;
+}
+.canal > img:hover{ opacity: 0.5;
+	width: 300px;
+	border-radius:25px;
+}
+.canal{ 
+	margin: 15px 15px;
+	
+	
+}
+
+.canal > h4{
+	font-weight: bold;
+	color: white;
+	margin: 0 5px ;
+
+}   
+.canal > p{
+	color: gray;
+	margin: 0 5px ;
+	font-weight: lighter;
+}   
+
+.ver__mais_youtube {
+	text-align: center;
+	margin: 20px 20px;
+}
+.ver__mais_youtube > a:hover{
+		opacity: 0.4;
+}
+.ver__mais_youtube > a{
+	background-color:red;
+	color: white;
+	padding: 15px 20px;
+	font-weight: bold;
+	border-radius: 05px;
+	text-transform:uppercase;
+}
+.estilo{
+display:flex;
+flex-direction: column;
+width: 400px;
+
+}
+.generos{
+	display: flex;
+	justify-content:center;
+	flex-wrap: wrap;
+	align-items: center;
+
+}
+.estilo > a{
+	background-color: gray;
+	color: white;
+	padding: 20px 80px;
+	font-weight: bold;
+	border-radius: 05px;
+	margin: 20px 20px;
+	border-left: solid yellow 10px; 
+}
+.estilo_dois> a{
+	
+	border-left: solid blue 10px; 
+}
+.estilo_tres> a{
+	
+	border-left: solid green 10px; 
+}
+.estilo_quatro> a{
+	
+	border-left: solid orange 10px; 
+}
+.estilo > a:hover{
+		opacity: 0.4;
+
+}
+
+footer {
+	text-align:center;
+	color:white;
+	margin: 30px;
+	
+}
+footer > p > a{
+	display: inline-block;
+	color:red;
+	font-weight: bold;
+	padding: 20 px 20px;
+}
+
+.artista > a > img{
+	border-radius: 50%;
+	weight: 300px;
+	height: 300px;
+	
+}
+.artista > a > img:hover{
+	opacity: 0.4;
+	border-radius: 50%;
+}
+
+ /* @media (max-width: 480px)
+{
+   .canal {
+  weight: 300px;
+   }
+}*/
