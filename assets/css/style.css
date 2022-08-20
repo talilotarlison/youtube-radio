@@ -139,7 +139,8 @@ main{
 	padding: 10px;
 }
 .canal > img:hover{ opacity: 0.5;
-	width: 300px;
+	width: 340px;
+height:300px;
 	border-radius:25px;
 }
 .canal{ 
