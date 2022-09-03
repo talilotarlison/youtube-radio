@@ -1,30 +1,21 @@
-function adicionarMusic() {
 
-var myMusicDoHtml = document.getElementById("linkMusic");
-var myMusicInput = myMusicDoHtml.value;
-var myMusicInputID = myMusicInput.substr(17) 
+function adicionarMusic(){
+	
+	var myMusicInput = document.getElementById("linkMusic").value;
+	var myMusicInputId = myMusicInput.substr(17);
+	var linkMusicNaTela = document.getElementById("video");
+	
+	var linkIframe = `<iframe width="670" height="640" src="https://www.youtube.com/embed/${myMusicInputId}" title="player" frameborder="0" allow="autoplay; clipboard-write;"></iframe>`;
 
+	var linkArtista = `<h1><font color="white">YouTube Music</font><h1><h2><font color="gray">Reproduzindo agora</font></h2>`;
+	
+	var linkFinal = linkIframe + linkArtista;
 
+	linkMusicNaTela.innerHTML = linkFinal;
 
-var linkMusicNaTela = document.getElementById("video");
-var linkEmbedID = "https://www.youtube.com/embed/" + myMusicInputID
-var linkIframe = '<iframe width="670" height="640" src="' +linkEmbedID+ '" title="player" frameborder="0" allow="autoplay; clipboard-write;"></iframe>'
-var linkArtista = '<h1><font color="white">Faixa Desconhecida</font><h1><h2><font color="gray">Reproduzindo agora</font></h2>'
-var linkFinal = linkIframe + linkArtista
-
-console.log(linkFinal)
-
-linkMusicNaTela.innerHTML = linkFinal
-
+	myMusicInput = " ";
 
 }
-
-
-
-
-
-
-
 
 
 

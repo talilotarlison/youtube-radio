@@ -19,7 +19,8 @@ background-color:  black;
 
 }
 
-nav{display:  flex;
+nav{
+	display:  flex;
        align-items: center;
   justify-content: space-between;
 }
@@ -31,10 +32,12 @@ nav{display:  flex;
   margin:  0px 0px;
  
 }
-.menu__navegacao > li > a {text-decoration:  none;
+.menu__navegacao > li > a {
+	text-decoration:  none;
 color:  gray;
 }
-.menu__navegacao > li > a:hover {color: #fff;
+.menu__navegacao > li > a:hover {
+	color: #fff;
 
 }
 .menu__navegacao > li{
@@ -42,11 +45,13 @@ color:  gray;
 
 }
 
-.logo__ytmusic{display:flex;
+.logo__ytmusic{
+	display:flex;
     margin: 10px;
       
 }
-.home{display:flex;
+.home{
+	display:flex;
     margin: 15px;
        
 }
@@ -183,6 +188,7 @@ width: 400px;
 
 }
 .generos{
+	margin-top: 60px;
 	display: flex;
 	justify-content:center;
 	flex-wrap: wrap;

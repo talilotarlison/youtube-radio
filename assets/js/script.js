@@ -1,32 +1,21 @@
-function adicionarMusic() {
 
+function adicionarMusic(){
+	
+	var myMusicInput = document.getElementById("linkMusic").value;
+	var myMusicInputId = myMusicInput.substr(17);
+	var linkMusicNaTela = document.getElementById("video");
+	
+	var linkIframe = `<iframe width="670" height="640" src="https://www.youtube.com/embed/${myMusicInputId}" title="player" frameborder="0" allow="autoplay; clipboard-write;"></iframe>`;
 
-var myMusicDoHtml = document.getElementById("linkMusic");
-var myMusicInput = myMusicDoHtml.value;
-var myMusicInputID = myMusicInput.substr(17) 
+	var linkArtista = `<h1><font color="white">YouTube Radio</font><h1><h2><font color="gray">Reproduzindo agora</font></h2>`;
+	
+	var linkFinal = linkIframe + linkArtista;
 
-var tocando = document.getElementById("faixa");
-var reprozuzindo = "<p>Reproduzindo agora</p>"
+	linkMusicNaTela.innerHTML = linkFinal;
 
-var linkMusicNaTela = document.getElementById("video");
-var linkEmbedID = "https://www.youtube.com/embed/" + myMusicInputID
-var linkIframe = '<iframe width="400" height="400" src="' +linkEmbedID+ '" title="player" frameborder="0" allow="autoplay; clipboard-write;"></iframe>'
-var linkFinal = linkIframe
-
-console.log(linkFinal)
-
-linkMusicNaTela.innerHTML = linkFinal
-tocando.innerHTML= reprozuzindo
-
+	myMusicInput = " ";
 
 }
-
-
-
-
-
-
-
 
 
 

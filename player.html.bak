@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang=pr-br>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+	concert=width=devace-width initial-scale=1.0>
+	<link rel="stylesheet" type="image/x-icon" href="./assets/img/ico.png">
+	<title>YT Radio - Player</title> <!--titulo da pagina -->
+	<link rel="stylesheet" type="text/css" href="./assets/css/style_player.css">
+	<link rel="shortcut icon" href="./assets/img/ico.png" type="image/x-icon" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<div class="box">
+			<a href="https://music.youtube.com/"  target="_blank"><img src="https://music.youtube.com/img/on_platform_logo_dark.svg" width="150px"></a>
+			<div class="home"><a  href="index.html"><img  src="./assets/img/home.png" width="50px"></a>
+			</div>
+			<div id="video">
+				<!--<iframe width="400" height="400" src="https://www.youtube.com/embed/KImDGP-x6bQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>-->
+			</div><br>
+			<div class="botao">
+				<input class="barra" type="range"><br><span class="um">00:00</span><span class="dois">00:00</span><br>
+				<div class="linha"type="text"><img width="110px" src="./assets/img/volta.png"></div>
+				<div class="linha"> <img type="submit" min="0" max=""onclick="adicionarMusic()" width="140px" src="./assets/img/play.png"></div>
+				<div class="linha"><img width="110px" src="./assets/img/proxima.png"></div><br><br>
+				<input id="linkMusic"  type="text" name="link" width="300vw" placeholder="ADICIONAR MUSICAS"><br><br><br><br>
+				<button type="submit" onclick="adicionarMusic()"><img width="80px" src="./assets/img/mais.png"></button>
+				<button type="text"><a  href="https://www.facebook.com/youtube/" target="_blank"><img  src="./assets/img/face.png" width="80px"></button>
+				<button type="text"><a  href="https://www.youtube.com.br" target="_blank"><img  src="./assets/img/yt.png" width="80px"></button>
+				<button type="text"><a  href="https://twitter.com/youtube" target="_blank"><img  src="./assets/img/twitter.png" width="80px"></button>
+				<br><br><br>
+		
+			</div>	
+		</div>
+	</div>
+	<script type="text/javascript"src="./assets/js/script.js"> </script>
+</body>
+
+</html>
+
+		
