@@ -13,7 +13,7 @@ function adicionarMusic(){
 
 	linkMusicNaTela.innerHTML = linkFinal;
 
-	document.getElementById("linkMusic").value = " ";
+	document.getElementById("linkMusic").value = "";
 
 }
 
