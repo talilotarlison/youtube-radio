@@ -31,7 +31,7 @@ var listaMusicId = [ "ieWe5AW1uNY",
 ];
 
 var listaArtista = ["Justin Bieber - MY Word",
-"MUSE - Greatest Hits ",
+"MUSE - Greatest Hits",
 "Guns N Roses - Greatest Hit",
 "Coldplay - Greatest Hit",
 "Top 100 Best Classic Rock Of All Time",
