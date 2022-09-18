@@ -25,7 +25,7 @@ var listaMusic = [ { id: "ieWe5AW1uNY", nome:"Justin Bieber - MY Word"},
 	{ id:"UgfsbL-uHOA",nome:"Top 100 Best Classic Rock Of All Time"},
 	{ id:"k1JHlNIZo74",nome:"Wesley Safadão - Atualizado"},
 	{ id:"JKPp3Kshb7c",nome:"Justin Bieber - Justice"},
-	{ id:"sje0ZZZwJaA",nome:"Natta - Atualizado"},
+	{ id:"sje0ZZZwJaA",nome:"Nattan - Atualizado"},
 	{ id:"OcnrboRX0lQ",nome:"Justin Bieber - Change"},
 	{ id:"7MhCwXstCRM",nome:"Justin Bieber - freedom"},
 	{ id:"e6QhH3q-UJE",nome:"The Beatles - As melhores"} 
