@@ -17,16 +17,16 @@ function adicionarMusic(){
 
 }
 
-var listaMusic = [ "https://www.youtube.com/embed/ieWe5AW1uNY",
-	"https://www.youtube.com/embed/EL2R3vszMPQ",
-	"https://www.youtube.com/embed/qO2dR1tXGTY",
-	"https://www.youtube.com/embed/pWX4OzyGo5w",
-	"https://www.youtube.com/embed/UgfsbL-uHOA",
-	"https://www.youtube.com/embed/k1JHlNIZo74",
-	"https://www.youtube.com/embed/JKPp3Kshb7c",
-	"https://www.youtube.com/embed/sje0ZZZwJaA",
-	"https://www.youtube.com/embed/OcnrboRX0lQ",
-	"https://www.youtube.com/embed/7MhCwXstCRM"
+var listaMusicId = [ "ieWe5AW1uNY",
+	"EL2R3vszMPQ",
+	"qO2dR1tXGTY",
+	"pWX4OzyGo5w",
+	"UgfsbL-uHOA",
+	"k1JHlNIZo74",
+	"JKPp3Kshb7c",
+	"sje0ZZZwJaA",
+	"OcnrboRX0lQ",
+	"7MhCwXstCRM"
 ];
 
 var listaArtista = ["Justin Bieber - MY Word",
@@ -50,8 +50,8 @@ function musicAleatoria(){
 
 	var linkMusicNaTela = document.getElementById("video");
 
-	var linkIframe = `<iframe width="670" height="640" src="${listaMusic[musicEscolhida]}" title="player" frameborder="0" allow="autoplay; clipboard-write;"></iframe>`;
-
+	var linkIframe = `<iframe width="670" height="640" src="https://www.youtube.com/embed/${listaMusicId[musicEscolhida]}" title="player" frameborder="0" allow="autoplay; clipboard-write;"></iframe>`;
+console.log(linkIframe);
 	var linkArtista = `<h1><font color="white"> ${listaArtista[musicEscolhida]}</font><h1><h2><font color="gray">Reproduzindo agora</font></h2>`;
 	var linkFinal = linkIframe + linkArtista;
 
@@ -60,6 +60,4 @@ function musicAleatoria(){
 
 
 }
-
-
 
