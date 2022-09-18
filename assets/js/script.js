@@ -50,7 +50,7 @@ function musicAleatoria(){
 
 	var linkMusicNaTela = document.getElementById("video");
 
-	var linkIframe = `<iframe width="670" height="640" src="https://www.youtube.com/embed/${listaMusic[musicEscolhida]}" title="player" frameborder="0" allow="autoplay; clipboard-write;"></iframe>`;
+	var linkIframe = `<iframe width="670" height="640" src="${listaMusic[musicEscolhida]}" title="player" frameborder="0" allow="autoplay; clipboard-write;"></iframe>`;
 
 	var linkArtista = `<h1><font color="white"> ${listaArtista[musicEscolhida]}</font><h1><h2><font color="gray">Reproduzindo agora</font></h2>`;
 	var linkFinal = linkIframe + linkArtista;
