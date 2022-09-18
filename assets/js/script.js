@@ -26,19 +26,21 @@ var listaMusicId = [ "ieWe5AW1uNY",
 	"JKPp3Kshb7c",
 	"sje0ZZZwJaA",
 	"OcnrboRX0lQ",
-	"7MhCwXstCRM"
+	"7MhCwXstCRM",
+	"e6QhH3q-UJE"
 ];
 
 var listaArtista = ["Justin Bieber - MY Word",
 "MUSE - Greatest Hits ",
-"G̲uns N Roses - Greatest Hit",
+"Guns N Roses - Greatest Hit",
 "Coldplay - Greatest Hit",
 "Top 100 Best Classic Rock Of All Time",
 "Wesley Safadão - Atualizado",
 "Justin Bieber - Justice",
 "Natta - Atualizado",
 "Justin Bieber - Change",
-"Justin Bieber - freedom"
+"Justin Bieber - freedom",
+"The Betales -  As melhores"
 ];
 
 
