@@ -39,7 +39,7 @@ var listaArtista = ["Justin Bieber - MY Word",
 "Top 100 Best Classic Rock Of All Time",
 "Wesley Safadão - Atualizado",
 "Justin Bieber - Justice",
-"Natta - Atualizado",
+"Nattan - Atualizado",
 "Justin Bieber - Change",
 "Justin Bieber - freedom",
 "The Beatles - As melhores"
