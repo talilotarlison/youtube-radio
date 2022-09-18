@@ -16,33 +16,20 @@ function adicionarMusic(){
 	document.getElementById("linkMusic").value = "";
 
 }
+// array com objetos dentro, fica mais clear e mais identificavel o codigo
 
-var listaMusicId = [ "ieWe5AW1uNY",
-	"EL2R3vszMPQ",
-	"qO2dR1tXGTY",
-	"pWX4OzyGo5w",
-	"UgfsbL-uHOA",
-	"k1JHlNIZo74",
-	"JKPp3Kshb7c",
-	"sje0ZZZwJaA",
-	"OcnrboRX0lQ",
-	"7MhCwXstCRM",
-	"e6QhH3q-UJE"
+var listaMusic = [ { id: "ieWe5AW1uNY", nome:"Justin Bieber - MY Word"},
+	{ id:"EL2R3vszMPQ",nome:"MUSE - Greatest Hits"},
+	{ id:"qO2dR1tXGTY",nome:"Guns N Roses - Greatest Hit"},
+	{ id:"pWX4OzyGo5w",nome:"Coldplay - Greatest Hit"},
+	{ id:"UgfsbL-uHOA",nome:"Top 100 Best Classic Rock Of All Time"},
+	{ id:"k1JHlNIZo74",nome:"Wesley Safadão - Atualizado"},
+	{ id:"JKPp3Kshb7c",nome:"Justin Bieber - Justice"},
+	{ id:"sje0ZZZwJaA",nome:"Natta - Atualizado"},
+	{ id:"OcnrboRX0lQ",nome:"Justin Bieber - Change"},
+	{ id:"7MhCwXstCRM",nome:"Justin Bieber - freedom"},
+	{ id:"e6QhH3q-UJE",nome:"The Beatles - As melhores"} 
 ];
-
-var listaArtista = ["Justin Bieber - MY Word",
-"MUSE - Greatest Hits",
-"Guns N Roses - Greatest Hit",
-"Coldplay - Greatest Hit",
-"Top 100 Best Classic Rock Of All Time",
-"Wesley Safadão - Atualizado",
-"Justin Bieber - Justice",
-"Nattan - Atualizado",
-"Justin Bieber - Change",
-"Justin Bieber - freedom",
-"The Betales -  As melhores"
-];
-
 
 
 
@@ -52,9 +39,9 @@ function musicAleatoria(){
 
 	var linkMusicNaTela = document.getElementById("video");
 
-	var linkIframe = `<iframe width="670" height="640" src="https://www.youtube.com/embed/${listaMusicId[musicEscolhida]}" title="player" frameborder="0" allow="autoplay; clipboard-write;"></iframe>`;
-console.log(linkIframe);
-	var linkArtista = `<h1><font color="white"> ${listaArtista[musicEscolhida]}</font><h1><h2><font color="gray">Reproduzindo agora</font></h2>`;
+	var linkIframe = `<iframe width="670" height="640" src="https://www.youtube.com/embed/${listaMusic[musicEscolhida].id}" title="player" frameborder="0" allow="autoplay; clipboard-write;"></iframe>`;
+	console.log(linkIframe);
+	var linkArtista = `<h1><font color="white"> ${listaMusic[musicEscolhida].nome}</font><h1><h2><font color="gray">Reproduzindo agora</font></h2>`;
 	var linkFinal = linkIframe + linkArtista;
 
 	linkMusicNaTela.innerHTML = linkFinal;
