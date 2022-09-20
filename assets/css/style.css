@@ -141,13 +141,13 @@ main{
 }
 .canal > img{
 	border-radius:25px;
-	width: 230px;
-	height:200px;
+	width: 330px;
+	height:300px;
 	padding: 10px;
 }
 .canal > img:hover{ opacity: 0.5;
-	width: 232px;
-height:202px;
+	width: 332px;
+height:302px;
 	border-radius:25px;
 }
 .canal{ 
@@ -238,8 +238,8 @@ footer > p > a{
 
 .artista > a > img{
 	border-radius: 50%;
-	weight: 200px;
-	height: 200px;
+	weight: 300px;
+	height: 300px;
 	
 }
 .artista > a > img:hover{
