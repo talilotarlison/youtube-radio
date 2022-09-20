@@ -144,8 +144,8 @@ main{
 	padding: 10px;
 }
 .canal > img:hover{ opacity: 0.5;
-	width: 340px;
-height:300px;
+	width: 351px;
+height:301px;
 	border-radius:25px;
 }
 .canal{ 
@@ -188,7 +188,7 @@ width: 400px;
 
 }
 .generos{
-	margin-top: 40px;
+	margin-top: 60px;
 	display: flex;
 	justify-content:center;
 	flex-wrap: wrap;

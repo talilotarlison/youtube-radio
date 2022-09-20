@@ -100,15 +100,13 @@ input::placeholder {
      
 }
 
-.um{display: inline;
-    color: white;
-    margin-right: 200px;
-    
-}
+.box a >  img:hover {
+transform: scale(1.1);
+   opacity:  0.6;
+ }
 
+  .home a >  img:hover {
+transform: scale(1.1);
+  opacity:  0.6;
+ }
 
-.dois{display: inline;
-    color: white;
-    margin-left: 200px ;
-    
-}

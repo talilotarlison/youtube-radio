@@ -17,7 +17,6 @@ function adicionarMusic(){
 
 }
 // array com objetos dentro, fica mais clear e mais identificavel o codigo
-
 var listaMusic = [ { id: "ieWe5AW1uNY", nome:"Justin Bieber - MY Word"},
 	{ id:"EL2R3vszMPQ",nome:"MUSE - Greatest Hits"},
 	{ id:"qO2dR1tXGTY",nome:"Guns N Roses - Greatest Hit"},
@@ -28,13 +27,17 @@ var listaMusic = [ { id: "ieWe5AW1uNY", nome:"Justin Bieber - MY Word"},
 	{ id:"sje0ZZZwJaA",nome:"Nattan - Atualizado"},
 	{ id:"OcnrboRX0lQ",nome:"Justin Bieber - Change"},
 	{ id:"7MhCwXstCRM",nome:"Justin Bieber - freedom"},
-	{ id:"e6QhH3q-UJE",nome:"The Beatles - As melhores"} 
+	{ id:"e6QhH3q-UJE",nome:"The Beatles - As melhores"},
+	{id : "jCGPUycuKOk", nome: "Justin Bieber - Justice Full"},
+{id:"gP9yCQf9x7M",nome:"Justin Bieber - As Melhores Full"},
+{id:"T9yeAvJ3hQQ",nome:"Justin Bieber - TikTok"},
+{id:"GpabipVtFSQ",nome:"Forro Atulizado 2022"},
+{id:"GpabipVtFSQ",nome:"Forro Atulizado 2022"}  
 ];
 
 
-
 function musicAleatoria(){
-	var musicEscolhida = Math.floor(Math.random() * 11)
+	var musicEscolhida = Math.floor(Math.random() * 15)
 	console.log(musicEscolhida)
 
 	var linkMusicNaTela = document.getElementById("video");
