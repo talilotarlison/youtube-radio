@@ -146,8 +146,7 @@ main{
 	padding: 10px;
 }
 .canal > img:hover{ opacity: 0.5;
-	width: 332px;
-height:302px;
+	transform: scale(1.1);
 	border-radius:25px;
 }
 .canal{ 
@@ -245,16 +244,10 @@ footer > p > a{
 .artista > a > img:hover{
 	opacity: 0.4;
 	border-radius: 50%;
+	transform: scale(1.1);
 }
 
- /* @media (max-width: 480px)
-{
-   .canal {
-  weight: 300px;
-   }
-}*/
 
- /* https://swiperjs.com/d*/
 
  .canais__radio{ flex-wrap:  none;
  }
@@ -268,3 +261,12 @@ transform: scale(1.1);
 transform: scale(1.1);
   opacity:  0.6;
  }
+
+  /* @media (max-width: 480px)
+{
+   .canal {
+  weight: 300px;
+   }
+}*/
+
+ /* https://swiperjs.com/d*/
