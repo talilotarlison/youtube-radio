@@ -269,4 +269,26 @@ transform: scale(1.1);
    }
 }*/
 
- /* https://swiperjs.com/d*/
+ 
+
+
+ @media (max-width: 720px)
+{
+ li > a > .name-home {
+  display:  none;
+   }
+
+font-size{30px}
+
+}
+ /*
+ @media (max-width: 720px){
+ 	li > a > .fa-solid{
+ 		display: none;
+ 	}
+ 	li > a > .name-home {
+  display: block;
+   }
+ }
+
+https://swiperjs.com/d*/
