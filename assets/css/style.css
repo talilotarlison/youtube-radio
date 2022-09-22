@@ -272,7 +272,7 @@ transform: scale(1.1);
  
 
 
- @media (max-width: 720px)
+ @media (max-width: 480px)
 {
  li > a > .name-home {
   display:  none;
