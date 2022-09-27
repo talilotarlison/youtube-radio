@@ -18,6 +18,13 @@
 			<div class="logo_ytm">
 			<a href="https://music.youtube.com/"  target="_blank"><img src="https://music.youtube.com/img/on_platform_logo_dark.svg" width="150px"></a>
 			</div>
+			 <div class="menu "> 
+           <li> <a href="https://music.youtube.com/"> Inicio</a>  
+            <li> <a href="https://music.youtube.com/explore"> Explorar</a>
+             <li> <a href="https://music.youtube.com"> Biblioteca</a>
+              <li> <a href="https://music.youtube.com/music_premium"> Premium</a>   
+            </div>
+            
 			<div class="home">
 				<a  href="index.html"><img  src="./assets/img/home.png" width="50px"></a>
 			</div>
@@ -62,6 +69,28 @@
 				</div>	
 		
 	</div>
+	 <footer>
+   		 <div class="botao-footer">
+               
+                <div class="linha"type="text"><img width="50px" onclick="musicAleatoria()" src="./assets/img/voltar.png"></div>
+                <div class="linha"> <img type="submit" min="0" max="0" onclick="adicionarMusic()" width="50px" src="./assets/img/play.png"></div>
+                <div class="linha"><img width="50px" onclick="musicAleatoria()"  src="./assets/img/proxima.png">
+      	 		</div>
+         </div> 
+         <div class="botao-and" id="faixa">
+         	 <p>YouTube Music</p>
+         </div> 
+         <div class="add-music">
+            <div class="add">
+            <input id="linkMusic"   type="text" name="link" placeholder="ADICIONAR MUSICAS">
+           	</div>
+           	<div class="add-botao-end"  >
+             <button type="submit" onclick="adicionarMusic()">+</button>
+           	</div>
+       
+        </div>
+     
+    </footer>
 	<script type="text/javascript"src="./assets/js/script.js"> </script>
  <script src="https://kit.fontawesome.com/32a7e6bf5d.js" crossorigin="anonymous"></script>
 

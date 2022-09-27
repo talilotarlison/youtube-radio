@@ -10,6 +10,7 @@ body {
     padding: 0;
     margin: 0 auto;
 	width:100vw;
+	font-weight: 200;
 }
 header {
 	position:fixed;
@@ -37,6 +38,7 @@ nav{
 .menu__navegacao > li > a {
 	text-decoration:  none;
 color:  gray;
+
 }
 .menu__navegacao > li > a:hover {
 	color: #fff;
@@ -262,33 +264,53 @@ transform: scale(1.1);
   opacity:  0.6;
  }
 
-  /* @media (max-width: 480px)
-{
-   .canal {
-  weight: 300px;
-   }
-}*/
+ 
+
+  /* aplicação @media query para deixar resposivo
+*/
 
  
 
 
- @media (max-width: 480px)
+ @media (min-width: 480px)
 {
+ 
+body{
+	font-size:  24px;
+}
+
+
  li > a > .name-home {
   display:  none;
+  margin:  0 5px;
    }
 
-font-size{30px}
 
 }
- /*
- @media (max-width: 720px){
+ @media (min-width: 780px){
+ 	body{
+	font-size:  1.2em;;
+}
+.logo_ytm , .
+ 	li > a > .fa-solid{
+ 		display:inline-block ;
+ 		margin:  0 15px;
+ 	}
+ 	li > a > .name-home {
+  display:  none;
+   }
+ }
+ 
+ @media (min-width: 1080px){
+ 	body{
+	font-size:  1.2em;
+}
  	li > a > .fa-solid{
  		display: none;
  	}
  	li > a > .name-home {
-  display: block;
+  display:  inline-block;
    }
  }
 
-https://swiperjs.com/d*/
+/*https://swiperjs.com/d*/
