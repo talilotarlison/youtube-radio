@@ -15,4 +15,9 @@
 
 ### youtube-radio
 
+##Tecnologias
+- HTML
+- CSS
+- JS
+
 ### 🏷️  Projeto clone do Youtube Music com um player integrado que roda as musicas do youtube apartir do link do video do youtube! Feito com html e css , javascrip. Projeto feito para treinar e estudar, sem fim lucrativos.
