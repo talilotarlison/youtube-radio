@@ -129,7 +129,7 @@ transform: scale(1.1);
  }
 
 
-@media (min-width: 480px){
+@media screen and (min-width: 360px){
 
 .menu{
         display: none;
@@ -139,24 +139,29 @@ footer {display: none;}
 }
 
 
-/*@media (max-width: 768px){
+@media screen and (max-width: 600px){
     body{ font-size: 18px; 
         font-weight: 700;
     }
-   .container{ margin: 1px 5px;
-   padding: 0 15px; }
+   .container{ margin: 1px 15px;
+   padding: 0 5px; }
 
     .logo_ytm >a > img{
         width: 100px;
     }
 header{
+
     position: fixed;
-    width: 100%;
+    width: 95vw;
+    padding: 20px;
+
 }
+
 
      .home > a> img{
  width: 30px;
-} 
+
+}
    hr, .botoes ,.botao ,.redes_sociais{display: none;
    }
    .container{  width: 100vw;
@@ -188,7 +193,7 @@ font-size: 1.6em;
    
 } 
 
---footer coonffigurações--
+/*---footer coonffigurações--*/
 
 footer {display: flex;
       justify-content:  space-between;
@@ -249,9 +254,8 @@ cursor:  pointer;
 }
 
 
-*/
 
-@media (min-width: 1024px){
+@media screen and (min-width: 1000px){
     body{ font-size: 18px; 
         font-weight: 700;
     }
@@ -263,7 +267,7 @@ cursor:  pointer;
     }
 header{
     position: fixed;
-    width: 100%;
+    width: 95vw;
 }
 
      .home > a> img{
